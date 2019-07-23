@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {
+      font-family: "Lato", sans-serif;
+    }
+    </style>
+    
+    <style>
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    </style>
+    
+    </head>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">HomePage</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contacts.html">Contact</a>
+      </div>
+      <span style="font-size:30px;color: white;cursor:pointer" onclick="openNav()">&#9776; HOME  </span>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+      <body style="background-image: url(background.jpg);background-repeat: no-repeat;background-size: 2500px 300px;background-position: top;height: 300px;"></body>
+      <body>
+          <h4 style="font-size: 50px;color: white;text-align: center;">Services</h4>
+          <h4 style="font-size: 30px;color: white;text-align: center;">I provide the following services; </h4>
+          
+          <div class="container">
+          <div class="row">
+          <div class="col-md-6">
+          <div class="about-content;">
+          <p><img src="html.jpg" alt="html" width="200" height="150" align="left">
+            <br>
+          <h4 style="font-size: 25px;text-align: left">I design what you want. I'm all about simplicity but classy and creativity. My goal is to invent and be innovative and also to be a competent web devevolper.
+          I develop what you need. I have just developed a responsive site for myself. I deal with clients and their expectactions, I'm all about making my client happy.</h4>
+          </p>
+          <br>
+          <p><img src="service.jpg" alt="pc tech" width="200" height="150" align="left">
+          <h4 style="font-size: 25px;text-align: left">
+          I set up hardware, install and configure software and drivers.
+          Maintain and repair technological equipment (e.g. routers) or peripheral devices.
+          Manage security options and software in computers and networks to maintain privacy and protection from attacks.
+          Perform regular upgrades to ensure systems remain updated
+          Troubleshoot system failures or bugs and provide solutions to restore functionality.
+          Keep records of repairs and fixes for future reference.
+            </h4>
+          
+          
+          
+          
+          </p>
+
+
+
+      </body>
+
+
+</html>

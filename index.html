@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Portfolio Website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+</style>
+
+<style>
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px; 
+  float: right;
+  top: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+  
+}
+
+.fa-twitter 
+{
+  color: white;
+  
+}
+
+.fa-linkedin 
+{
+  color: white;
+  
+}
+
+.fa-instagram 
+{
+  color: white;
+  
+}
+</style>
+</head>
+
+  <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">HomePage</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contacts.html">Contact</a>
+    </div>
+    <h1 span style="font-size:30px;color: white;cursor:pointer" onclick="openNav()">&#9776; HOME </span></h1>
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    <div class="icon-bar">
+        <a href="https://www.facebook.com/sisipho.gwajall" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/SisiphoGwaja" class="twitter"><i class="fa fa-twitter"></i></a>  
+        <a href="https://www.linkedin.com/in/sisipho-gwaja-87b887112/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/gwaja_sisipho/" class="instagram"><i class="fa fa-instagram"></i></a>
+      </div>
+
+<body style="background-image: url(background.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;"></body>
+
+<body>
+  <h5 style="font-size: 80px;color: white; text-align: center;">Welcome to my Website</h5>
+    <h5 style="font-size: 60px;color: white; text-align: center;">I'm Sisipho Gwaja</h5>
+    <h5 style="font-size: 30px;color: white;text-align: center;">Web Developer| PC Technician</h5>
+ 
+  </div>
+</body>
+</html>
